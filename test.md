@@ -21,13 +21,13 @@ N/A
 - The system returns a success message confirming the addition.
 
 ### Test Run Date:
-12-01-2025
+01-02-2025
 
 ### Result:
 Pass
 
 ### Testing Outputs:
-*(Paste your output/snapshots here)*
+
 
 ---
 
@@ -52,13 +52,13 @@ N/A
 - No changes are made to PostgreSQL or Valkey.
 
 ### Test Run Date:
-12-01-2025
+01-02-2025
 
 ### Result:
 Pass
 
 ### Testing Outputs:
-*(Paste your output/snapshots here)*
+
 
 ---
 
@@ -83,13 +83,13 @@ N/A
 - If the employee does not exist in either, it returns `"Employee not found."`
 
 ### Test Run Date:
-12-01-2025
+01-02-2025
 
 ### Result:
 Pass
 
 ### Testing Outputs:
-*(Paste your output/snapshots here)*
+
 
 ---
 
@@ -112,13 +112,13 @@ N/A
 - No data is inserted into PostgreSQL or Valkey.
 
 ### Test Run Date:
-12-01-2025
+01-02-2025
 
 ### Result:
 Pass
 
 ### Testing Outputs:
-*(Paste your output/snapshots here)*
+
 
 ---
 
@@ -142,13 +142,13 @@ N/A
 - If the ID does not exist, the system returns `"Employee not found."`
 
 ### Test Run Date:
-12-01-2025
+01-02-2025
 
 ### Result:
 Pass
 
 ### Testing Outputs:
-*(Paste your output/snapshots here)*
+
 
 ---
 
@@ -161,8 +161,7 @@ A user performs data operations (add, delete, update) and expects consistent dat
 N/A
 
 ### Given:
-- The backend uses PostgreSQL as the persistent data store and Valkey for fast in-memory lookups.
-- The system contains several employee records.
+- The backend uses PostgreSQL as the persistent data store and Valkey for fast in-memory lookups and the system contains several employee records.
 
 ### When:
 - The user adds, deletes, or updates employee data via the API.
@@ -172,13 +171,13 @@ N/A
 - If a discrepancy is detected between the two, an error is logged and a background sync process is initiated.
 
 ### Test Run Date:
-12-01-2025
+01-02-2025
 
 ### Result:
 Pass
 
 ### Testing Outputs:
-*(Paste your output/snapshots here)*
+
 
 ---
 
@@ -202,10 +201,10 @@ N/A
 - **Result:** The performance difference is evident: Valkey returns data in a fraction of the time compared to PostgreSQL, confirming its use for fast lookups while PostgreSQL remains the source of truth.
 
 ### Test Run Date:
-12-01-2025
+01-02-2025
 
 ### Result:
 Pass
 
 ### Testing Outputs:
-*(Paste your output/snapshots here)*
+
